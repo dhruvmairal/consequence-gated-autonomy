@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: report
+title: "Consequence-Gated Autonomy: An Authorization Primitive for Agentic AI"
+authors:
+  - family-names: "Mairal"
+    given-names: "Dhruv"
+date-released: 2026-02-11
+version: 1.0.0
+repository-code: "https://github.com/dhruvmairal/consequence-gated-autonomy"
+license: "CC-BY-4.0"
+abstract: >
+  Advances in artificial intelligence have decoupled high-level cognitive capability from biological embodiment.
+  As systems move from advice to execution, a structural asymmetry emerges: models can optimize actions but do not
+  bear downstream consequences of error. We argue that authority to execute irreversible actions cannot be derived
+  from intelligence alone. We propose consequence-gated autonomy: actions above a context-dependent consequence
+  threshold require explicit, auditable authorization by an accountable bearer before execution. We outline an
+  implementable architecture using policy, capability-based execution, and provenance logging, and discuss failure
+  modes such as rubber-stamping, mis-scoring, and credential compromise.
+keywords:
+  - agentic ai
+  - ai safety
+  - ai alignment
+  - authorization
+  - accountability
+  - capability-based security
+  - provenance
+  - governance
